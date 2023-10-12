@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Falcon-Sample-WIN_7_chrome_53]" guice-stage="DEVELOPMENT">
+  <parameter name="os" value="WIN"/>
+  <parameter name="osVersion" value="7"/>
+  <parameter name="browser" value="chrome"/>
+  <parameter name="browserVersion" value="53"/>
+  <test thread-count="5" name="SampleTest(failed)">
+    <classes>
+      <class name="org.atmecs.ui_automation_orangehrm.testscript.OrangeHRMTestScript">
+        <methods>
+          <include name="performActions"/>
+          <include name="teardown"/>
+          <include name="preSetup"/>
+          <include name="launchApp"/>
+        </methods>
+      </class> <!-- org.atmecs.ui_automation_orangehrm.testscript.OrangeHRMTestScript -->
+    </classes>
+  </test> <!-- SampleTest(failed) -->
+</suite> <!-- Failed suite [Falcon-Sample-WIN_7_chrome_53] -->

@@ -1,0 +1,605 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[INFO: The value found with Environment variable Falcon is: Falcon]]>
+    </line>
+    <line>
+      <![CDATA[INFO: The value found with Environment Module variable sample is: sample]]>
+    </line>
+    <line>
+      <![CDATA[The value found with Environment variable WIN_7_chrome_53 is: WIN_7_chrome_53]]>
+    </line>
+    <line>
+      <![CDATA[INFO: Clients Found: [Falcon]
+]]>
+    </line>
+    <line>
+      <![CDATA[INFO: Modules Selected: [sample]
+]]>
+    </line>
+    <line>
+      <![CDATA[INFO: New Suite Created with name: Falcon-Sample-WIN_7_chrome_53]]>
+    </line>
+    <line>
+      <![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Falcon-Sample-WIN_7_chrome_53" guice-stage="DEVELOPMENT">
+  <parameter name="os" value="WIN"/>
+  <parameter name="osVersion" value="7"/>
+  <parameter name="browser" value="chrome"/>
+  <parameter name="browserVersion" value="53"/>
+  <test thread-count="5" name="SampleTest">
+    <classes>
+      <class name="org.atmecs.ui_automation_orangehrm.testscript.OrangeHRMTestScript"/>
+    </classes>
+  </test> <!-- SampleTest -->
+</suite> <!-- Falcon-Sample-WIN_7_chrome_53 -->
+]]>
+    </line>
+    <line>
+      <![CDATA[Opening browser: chrome]]>
+    </line>
+    <line>
+      <![CDATA[url opened]]>
+    </line>
+    <line>
+      <![CDATA[Maximizing browser window]]>
+    </line>
+    <line>
+      <![CDATA[Entering the Invalid Credentials]]>
+    </line>
+    <line>
+      <![CDATA[PASS : Error Message:  : ACTUAL : Invalid credentials EXPECTED :Invalid credentials]]>
+    </line>
+    <line>
+      <![CDATA[Entering the Invalid Credentials]]>
+    </line>
+    <line>
+      <![CDATA[PASS : Error Message:  : ACTUAL : Invalid credentials EXPECTED :Invalid credentials]]>
+    </line>
+    <line>
+      <![CDATA[Entering the Invalid Credentials]]>
+    </line>
+    <line>
+      <![CDATA[PASS : Error Message:  : ACTUAL : Invalid credentials EXPECTED :Invalid credentials]]>
+    </line>
+    <line>
+      <![CDATA[Entering valid credentials]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on PIM Tab]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on Reports]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on Add]]>
+    </line>
+    <line>
+      <![CDATA[Entering Report Name]]>
+    </line>
+    <line>
+      <![CDATA[Selecting Selection Criteria]]>
+    </line>
+    <line>
+      <![CDATA[Selecting Include]]>
+    </line>
+    <line>
+      <![CDATA[Selecting select display field group]]>
+    </line>
+    <line>
+      <![CDATA[Selecting display field]]>
+    </line>
+    <line>
+      <![CDATA[Selecting the category under Selection Criteria ]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on Save]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on Reports]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on Report Name Text Field]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on Search]]>
+    </line>
+    <line>
+      <![CDATA[Verify the Text Records]]>
+    </line>
+    <line>
+      <![CDATA[PASS : Found Message:  : ACTUAL : (1) Record Found EXPECTED :(1) Record Found]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on Edit]]>
+    </line>
+    <line>
+      <![CDATA[Selecting display field group in Edit Page]]>
+    </line>
+    <line>
+      <![CDATA[Selecting the category under display field in Edit Page]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on Save]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on Reports]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on Report Name Text Field]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on Search]]>
+    </line>
+    <line>
+      <![CDATA[Verify the Text Records]]>
+    </line>
+    <line>
+      <![CDATA[PASS : Found Message:  : ACTUAL : (1) Record Found EXPECTED :(1) Record Found]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on Delete]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on Delete Alert]]>
+    </line>
+    <line>
+      <![CDATA[Verify the Text Delete Records]]>
+    </line>
+    <line>
+      <![CDATA[PASS : Found Message:  : ACTUAL : No Records Found EXPECTED :No Records Found]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on Admin Tab]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on Job]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on Job Title]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on Add]]>
+    </line>
+    <line>
+      <![CDATA[Entering Job Title]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on Save]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on Edit]]>
+    </line>
+    <line>
+      <![CDATA[Entering Job Title]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on Save]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on Delete]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on Delete Alert]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on Job]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on Job Categories]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on Add]]>
+    </line>
+    <line>
+      <![CDATA[Entering Job Title]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on Save]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on Edit]]>
+    </line>
+    <line>
+      <![CDATA[Entering Job Title]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on Save]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on Delete]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on Delete Alert]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on Admin Tab]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on Organization]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on Structure]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on Engineering DropDown]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on Edit Button]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on QA Edit Button]]>
+    </line>
+    <line>
+      <![CDATA[Enter Text on the QA]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on Save]]>
+    </line>
+    <line>
+      <![CDATA[Clicking again on Engineering DropDown]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on DropDown under QA]]>
+    </line>
+    <line>
+      <![CDATA[PASS : Added Record:  : ACTUAL : Testing EXPECTED :Testing]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2023-10-12T07:10:56Z" name="Falcon-Sample-WIN_7_chrome_53" finished-at="2023-10-12T07:13:05Z" duration-ms="129208">
+    <groups>
+    </groups>
+    <test started-at="2023-10-12T07:10:56Z" name="SampleTest" finished-at="2023-10-12T07:13:05Z" duration-ms="129208">
+      <class name="org.atmecs.ui_automation_orangehrm.testscript.OrangeHRMTestScript">
+        <test-method is-config="true" signature="preSetup()[pri:0, instance:org.atmecs.ui_automation_orangehrm.testscript.OrangeHRMTestScript@2e65c066]" started-at="2023-10-12T07:10:56Z" name="preSetup" finished-at="2023-10-12T07:10:56Z" duration-ms="25" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preSetup -->
+        <test-method signature="launchApp(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:org.atmecs.ui_automation_orangehrm.testscript.OrangeHRMTestScript@2e65c066]" started-at="2023-10-12T07:10:56Z" name="launchApp" finished-at="2023-10-12T07:11:11Z" duration-ms="14999" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[WIN]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[7]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[53]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Opening browser: chrome]]>
+            </line>
+            <line>
+              <![CDATA[url opened]]>
+            </line>
+            <line>
+              <![CDATA[Maximizing browser window]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- launchApp -->
+        <test-method signature="loginPageActions(java.lang.String, java.lang.String)[pri:1, instance:org.atmecs.ui_automation_orangehrm.testscript.OrangeHRMTestScript@2e65c066]" started-at="2023-10-12T07:11:12Z" name="loginPageActions" data-provider="getData" finished-at="2023-10-12T07:11:15Z" depends-on-methods="org.atmecs.ui_automation_orangehrm.testscript.OrangeHRMTestScript.launchApp" duration-ms="3321" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admins]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Entering the Invalid Credentials]]>
+            </line>
+            <line>
+              <![CDATA[PASS : Error Message:  : ACTUAL : Invalid credentials EXPECTED :Invalid credentials]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- loginPageActions -->
+        <test-method signature="loginPageActions(java.lang.String, java.lang.String)[pri:1, instance:org.atmecs.ui_automation_orangehrm.testscript.OrangeHRMTestScript@2e65c066]" started-at="2023-10-12T07:11:15Z" name="loginPageActions" data-provider="getData" finished-at="2023-10-12T07:11:18Z" depends-on-methods="org.atmecs.ui_automation_orangehrm.testscript.OrangeHRMTestScript.launchApp" duration-ms="3284" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admins]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Entering the Invalid Credentials]]>
+            </line>
+            <line>
+              <![CDATA[PASS : Error Message:  : ACTUAL : Invalid credentials EXPECTED :Invalid credentials]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- loginPageActions -->
+        <test-method signature="loginPageActions(java.lang.String, java.lang.String)[pri:1, instance:org.atmecs.ui_automation_orangehrm.testscript.OrangeHRMTestScript@2e65c066]" started-at="2023-10-12T07:11:18Z" name="loginPageActions" data-provider="getData" finished-at="2023-10-12T07:11:21Z" depends-on-methods="org.atmecs.ui_automation_orangehrm.testscript.OrangeHRMTestScript.launchApp" duration-ms="3336" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Entering the Invalid Credentials]]>
+            </line>
+            <line>
+              <![CDATA[PASS : Error Message:  : ACTUAL : Invalid credentials EXPECTED :Invalid credentials]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- loginPageActions -->
+        <test-method signature="pimTabActions(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:org.atmecs.ui_automation_orangehrm.testscript.OrangeHRMTestScript@2e65c066]" started-at="2023-10-12T07:11:22Z" name="pimTabActions" data-provider="getDataSheet2" finished-at="2023-10-12T07:11:59Z" duration-ms="37215" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Testing Report]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Education]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Current Employees Only]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Contact Details]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Mobile]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Home Telephone]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Entering valid credentials]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on PIM Tab]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on Reports]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on Add]]>
+            </line>
+            <line>
+              <![CDATA[Entering Report Name]]>
+            </line>
+            <line>
+              <![CDATA[Selecting Selection Criteria]]>
+            </line>
+            <line>
+              <![CDATA[Selecting Include]]>
+            </line>
+            <line>
+              <![CDATA[Selecting select display field group]]>
+            </line>
+            <line>
+              <![CDATA[Selecting display field]]>
+            </line>
+            <line>
+              <![CDATA[Selecting the category under Selection Criteria ]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on Save]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on Reports]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on Report Name Text Field]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on Search]]>
+            </line>
+            <line>
+              <![CDATA[Verify the Text Records]]>
+            </line>
+            <line>
+              <![CDATA[PASS : Found Message:  : ACTUAL : (1) Record Found EXPECTED :(1) Record Found]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on Edit]]>
+            </line>
+            <line>
+              <![CDATA[Selecting display field group in Edit Page]]>
+            </line>
+            <line>
+              <![CDATA[Selecting the category under display field in Edit Page]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on Save]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on Reports]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on Report Name Text Field]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on Search]]>
+            </line>
+            <line>
+              <![CDATA[Verify the Text Records]]>
+            </line>
+            <line>
+              <![CDATA[PASS : Found Message:  : ACTUAL : (1) Record Found EXPECTED :(1) Record Found]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on Delete]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on Delete Alert]]>
+            </line>
+            <line>
+              <![CDATA[Verify the Text Delete Records]]>
+            </line>
+            <line>
+              <![CDATA[PASS : Found Message:  : ACTUAL : No Records Found EXPECTED :No Records Found]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- pimTabActions -->
+        <test-method signature="adminPageActions()[pri:3, instance:org.atmecs.ui_automation_orangehrm.testscript.OrangeHRMTestScript@2e65c066]" started-at="2023-10-12T07:11:59Z" name="adminPageActions" finished-at="2023-10-12T07:12:48Z" duration-ms="49648" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Clicking on Admin Tab]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on Job]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on Job Title]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on Add]]>
+            </line>
+            <line>
+              <![CDATA[Entering Job Title]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on Save]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on Edit]]>
+            </line>
+            <line>
+              <![CDATA[Entering Job Title]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on Save]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on Delete]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on Delete Alert]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on Job]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on Job Categories]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on Add]]>
+            </line>
+            <line>
+              <![CDATA[Entering Job Title]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on Save]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on Edit]]>
+            </line>
+            <line>
+              <![CDATA[Entering Job Title]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on Save]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on Delete]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on Delete Alert]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- adminPageActions -->
+        <test-method signature="structurePageActions()[pri:4, instance:org.atmecs.ui_automation_orangehrm.testscript.OrangeHRMTestScript@2e65c066]" started-at="2023-10-12T07:12:48Z" name="structurePageActions" finished-at="2023-10-12T07:13:05Z" duration-ms="16329" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Clicking on Admin Tab]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on Organization]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on Structure]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on Engineering DropDown]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on Edit Button]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on QA Edit Button]]>
+            </line>
+            <line>
+              <![CDATA[Enter Text on the QA]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on Save]]>
+            </line>
+            <line>
+              <![CDATA[Clicking again on Engineering DropDown]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on DropDown under QA]]>
+            </line>
+            <line>
+              <![CDATA[PASS : Added Record:  : ACTUAL : Testing EXPECTED :Testing]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- structurePageActions -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:org.atmecs.ui_automation_orangehrm.testscript.OrangeHRMTestScript@2e65c066]" started-at="2023-10-12T07:13:05Z" name="teardown" finished-at="2023-10-12T07:13:05Z" duration-ms="117" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- org.atmecs.ui_automation_orangehrm.testscript.OrangeHRMTestScript -->
+    </test> <!-- SampleTest -->
+  </suite> <!-- Falcon-Sample-WIN_7_chrome_53 -->
+</testng-results>

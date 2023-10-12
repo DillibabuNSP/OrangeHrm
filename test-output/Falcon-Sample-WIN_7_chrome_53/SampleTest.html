@@ -1,0 +1,226 @@
+<html>
+<head>
+<title>TestNG:  SampleTest</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>SampleTest</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>7/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Thu Oct 12 12:40:56 GMT+05:30 2023</td>
+</tr>
+<tr><td>Total time:</td><td>129 seconds (129208 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='org.atmecs.ui_automation_orangehrm.testscript.OrangeHRMTestScript.adminPageActions()'><b>adminPageActions</b><br>Test class: org.atmecs.ui_automation_orangehrm.testscript.OrangeHRMTestScript<br/>
+<a href="#Output-1843303602" onClick='toggleBox("Output-1843303602", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1843303602" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1843303602">
+Clicking on Admin Tab<br/>
+Clicking on Job<br/>
+Clicking on Job Title<br/>
+Clicking on Add<br/>
+Entering Job Title<br/>
+Clicking on Save<br/>
+Clicking on Edit<br/>
+Entering Job Title<br/>
+Clicking on Save<br/>
+Clicking on Delete<br/>
+Clicking on Delete Alert<br/>
+Clicking on Job<br/>
+Clicking on Job Categories<br/>
+Clicking on Add<br/>
+Entering Job Title<br/>
+Clicking on Save<br/>
+Clicking on Edit<br/>
+Entering Job Title<br/>
+Clicking on Save<br/>
+Clicking on Delete<br/>
+Clicking on Delete Alert<br/>
+</div>
+</td>
+<td></td>
+<td>49</td>
+<td>org.atmecs.ui_automation_orangehrm.testscript.OrangeHRMTestScript@2e65c066</td></tr>
+<tr>
+<td title='org.atmecs.ui_automation_orangehrm.testscript.OrangeHRMTestScript.launchApp()'><b>launchApp</b><br>Test class: org.atmecs.ui_automation_orangehrm.testscript.OrangeHRMTestScript<br>Parameters: WIN, 7, chrome, 53<br/>
+<a href="#Output-152400715" onClick='toggleBox("Output-152400715", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-152400715" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-152400715">
+Opening browser: chrome<br/>
+url opened<br/>
+Maximizing browser window<br/>
+</div>
+</td>
+<td></td>
+<td>14</td>
+<td>org.atmecs.ui_automation_orangehrm.testscript.OrangeHRMTestScript@2e65c066</td></tr>
+<tr>
+<td title='org.atmecs.ui_automation_orangehrm.testscript.OrangeHRMTestScript.loginPageActions()'><b>loginPageActions</b><br>Test class: org.atmecs.ui_automation_orangehrm.testscript.OrangeHRMTestScript<br>Parameters: Admins, admin@123<br/>
+<a href="#Output-618689279" onClick='toggleBox("Output-618689279", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-618689279" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-618689279">
+Entering the Invalid Credentials<br/>
+PASS : Error Message:  : ACTUAL : Invalid credentials 	EXPECTED :Invalid credentials<br/>
+</div>
+</td>
+<td></td>
+<td>3</td>
+<td>org.atmecs.ui_automation_orangehrm.testscript.OrangeHRMTestScript@2e65c066</td></tr>
+<tr>
+<td title='org.atmecs.ui_automation_orangehrm.testscript.OrangeHRMTestScript.loginPageActions()'><b>loginPageActions</b><br>Test class: org.atmecs.ui_automation_orangehrm.testscript.OrangeHRMTestScript<br>Parameters: Admins, admin123<br/>
+<a href="#Output-1503438934" onClick='toggleBox("Output-1503438934", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1503438934" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1503438934">
+Entering the Invalid Credentials<br/>
+PASS : Error Message:  : ACTUAL : Invalid credentials 	EXPECTED :Invalid credentials<br/>
+</div>
+</td>
+<td></td>
+<td>3</td>
+<td>org.atmecs.ui_automation_orangehrm.testscript.OrangeHRMTestScript@2e65c066</td></tr>
+<tr>
+<td title='org.atmecs.ui_automation_orangehrm.testscript.OrangeHRMTestScript.loginPageActions()'><b>loginPageActions</b><br>Test class: org.atmecs.ui_automation_orangehrm.testscript.OrangeHRMTestScript<br>Parameters: Admin, admin@123<br/>
+<a href="#Output-1845343054" onClick='toggleBox("Output-1845343054", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1845343054" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1845343054">
+Entering the Invalid Credentials<br/>
+PASS : Error Message:  : ACTUAL : Invalid credentials 	EXPECTED :Invalid credentials<br/>
+</div>
+</td>
+<td></td>
+<td>3</td>
+<td>org.atmecs.ui_automation_orangehrm.testscript.OrangeHRMTestScript@2e65c066</td></tr>
+<tr>
+<td title='org.atmecs.ui_automation_orangehrm.testscript.OrangeHRMTestScript.pimTabActions()'><b>pimTabActions</b><br>Test class: org.atmecs.ui_automation_orangehrm.testscript.OrangeHRMTestScript<br>Parameters: Admin, admin123, Testing Report, Education, Current Employees Only, Contact Details, Mobile, Home Telephone<br/>
+<a href="#Output-1153655721" onClick='toggleBox("Output-1153655721", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1153655721" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1153655721">
+Entering valid credentials<br/>
+Clicking on PIM Tab<br/>
+Clicking on Reports<br/>
+Clicking on Add<br/>
+Entering Report Name<br/>
+Selecting Selection Criteria<br/>
+Selecting Include<br/>
+Selecting select display field group<br/>
+Selecting display field<br/>
+Selecting the category under Selection Criteria <br/>
+Clicking on Save<br/>
+Clicking on Reports<br/>
+Clicking on Report Name Text Field<br/>
+Clicking on Search<br/>
+Verify the Text Records<br/>
+PASS : Found Message:  : ACTUAL : (1) Record Found 	EXPECTED :(1) Record Found<br/>
+Clicking on Edit<br/>
+Selecting display field group in Edit Page<br/>
+Selecting the category under display field in Edit Page<br/>
+Clicking on Save<br/>
+Clicking on Reports<br/>
+Clicking on Report Name Text Field<br/>
+Clicking on Search<br/>
+Verify the Text Records<br/>
+PASS : Found Message:  : ACTUAL : (1) Record Found 	EXPECTED :(1) Record Found<br/>
+Clicking on Delete<br/>
+Clicking on Delete Alert<br/>
+Verify the Text Delete Records<br/>
+PASS : Found Message:  : ACTUAL : No Records Found 	EXPECTED :No Records Found<br/>
+</div>
+</td>
+<td></td>
+<td>37</td>
+<td>org.atmecs.ui_automation_orangehrm.testscript.OrangeHRMTestScript@2e65c066</td></tr>
+<tr>
+<td title='org.atmecs.ui_automation_orangehrm.testscript.OrangeHRMTestScript.structurePageActions()'><b>structurePageActions</b><br>Test class: org.atmecs.ui_automation_orangehrm.testscript.OrangeHRMTestScript<br/>
+<a href="#Output-1724061038" onClick='toggleBox("Output-1724061038", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1724061038" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1724061038">
+Clicking on Admin Tab<br/>
+Clicking on Organization<br/>
+Clicking on Structure<br/>
+Clicking on Engineering DropDown<br/>
+Clicking on Edit Button<br/>
+Clicking on QA Edit Button<br/>
+Enter Text on the QA<br/>
+Clicking on Save<br/>
+Clicking again on Engineering DropDown<br/>
+Clicking on DropDown under QA<br/>
+PASS : Added Record:  : ACTUAL : Testing 	EXPECTED :Testing<br/>
+</div>
+</td>
+<td></td>
+<td>16</td>
+<td>org.atmecs.ui_automation_orangehrm.testscript.OrangeHRMTestScript@2e65c066</td></tr>
+</table><p>
+</body>
+</html>

@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Falcon-Sample-WIN_7_chrome_53" class="navigator-link">
+              <span class="suite-name border-passed">Falcon-Sample-WIN_7_chrome_53</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Falcon-Sample-WIN_7_chrome_53" class="navigator-link ">
+                    <span>C:\Users\dillibabu.nsp\eclipse-workspace\ui_automation_orangehrm\src\main\resources\suitefile\sample.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Falcon-Sample-WIN_7_chrome_53" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Falcon-Sample-WIN_7_chrome_53" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Falcon-Sample-WIN_7_chrome_53" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Falcon-Sample-WIN_7_chrome_53" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Falcon-Sample-WIN_7_chrome_53" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Falcon-Sample-WIN_7_chrome_53" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">7 methods,   7 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Falcon-Sample-WIN_7_chrome_53" class="hide-methods passed suite-Falcon-Sample-WIN_7_chrome_53"> (hide)</a> <!-- hide-methods passed suite-Falcon-Sample-WIN_7_chrome_53 -->
+                      <a href="#" panel-name="suite-Falcon-Sample-WIN_7_chrome_53" class="show-methods passed suite-Falcon-Sample-WIN_7_chrome_53"> (show)</a> <!-- show-methods passed suite-Falcon-Sample-WIN_7_chrome_53 -->
+                    </span>
+                    <div class="method-list-content passed suite-Falcon-Sample-WIN_7_chrome_53">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Falcon-Sample-WIN_7_chrome_53" title="org.atmecs.ui_automation_orangehrm.testscript.OrangeHRMTestScript" class="method navigator-link" hash-for-method="adminPageActions">adminPageActions</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Falcon-Sample-WIN_7_chrome_53" title="org.atmecs.ui_automation_orangehrm.testscript.OrangeHRMTestScript" class="method navigator-link" hash-for-method="launchApp(WIN, 7, chrome, 53)">launchApp(WIN, 7, chrome, 53)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Falcon-Sample-WIN_7_chrome_53" title="org.atmecs.ui_automation_orangehrm.testscript.OrangeHRMTestScript" class="method navigator-link" hash-for-method="loginPageActions(Admin, admin@123)">loginPageActions(Admin, admin@123)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Falcon-Sample-WIN_7_chrome_53" title="org.atmecs.ui_automation_orangehrm.testscript.OrangeHRMTestScript" class="method navigator-link" hash-for-method="loginPageActions(Admins, admin123)">loginPageActions(Admins, admin123)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Falcon-Sample-WIN_7_chrome_53" title="org.atmecs.ui_automation_orangehrm.testscript.OrangeHRMTestScript" class="method navigator-link" hash-for-method="loginPageActions(Admins, admin@123)">loginPageActions(Admins, admin@123)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Falcon-Sample-WIN_7_chrome_53" title="org.atmecs.ui_automation_orangehrm.testscript.OrangeHRMTestScript" class="method navigator-link" hash-for-method="pimTabActions(Admin, admin123, Testing Report, Education, Current Employees Only, Contact Details, Mobile, Home Te...)">pimTabActions(Admin, admin123, Testing Report, Education, Current Employees Only, Contact Details, Mobile, Home Te...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Falcon-Sample-WIN_7_chrome_53" title="org.atmecs.ui_automation_orangehrm.testscript.OrangeHRMTestScript" class="method navigator-link" hash-for-method="structurePageActions">structurePageActions</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Falcon-Sample-WIN_7_chrome_53 -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Falcon-Sample-WIN_7_chrome_53" class="panel Falcon-Sample-WIN_7_chrome_53">
+          <div class="suite-Falcon-Sample-WIN_7_chrome_53-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">org.atmecs.ui_automation_orangehrm.testscript.OrangeHRMTestScript</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="adminPageActions">
+                  </a> <!-- adminPageActions -->
+                  <span class="method-name">adminPageActions</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="launchApp(WIN, 7, chrome, 53)">
+                  </a> <!-- launchApp(WIN, 7, chrome, 53) -->
+                  <span class="method-name">launchApp</span>
+                  <span class="parameters">(WIN, 7, chrome, 53)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginPageActions(Admin, admin@123)">
+                  </a> <!-- loginPageActions(Admin, admin@123) -->
+                  <span class="method-name">loginPageActions</span>
+                  <span class="parameters">(Admin, admin@123)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginPageActions(Admins, admin123)">
+                  </a> <!-- loginPageActions(Admins, admin123) -->
+                  <span class="method-name">loginPageActions</span>
+                  <span class="parameters">(Admins, admin123)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginPageActions(Admins, admin@123)">
+                  </a> <!-- loginPageActions(Admins, admin@123) -->
+                  <span class="method-name">loginPageActions</span>
+                  <span class="parameters">(Admins, admin@123)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="pimTabActions(Admin, admin123, Testing Report, Education, Current Employees Only, Contact Details, Mobile, Home Te...)">
+                  </a> <!-- pimTabActions(Admin, admin123, Testing Report, Education, Current Employees Only, Contact Details, Mobile, Home Te...) -->
+                  <span class="method-name">pimTabActions</span>
+                  <span class="parameters">(Admin, admin123, Testing Report, Education, Current Employees Only, Contact Details, Mobile, Home Telephone)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="structurePageActions">
+                  </a> <!-- structurePageActions -->
+                  <span class="method-name">structurePageActions</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Falcon-Sample-WIN_7_chrome_53-class-passed -->
+        </div> <!-- panel Falcon-Sample-WIN_7_chrome_53 -->
+        <div panel-name="test-xml-Falcon-Sample-WIN_7_chrome_53" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\dillibabu.nsp\eclipse-workspace\ui_automation_orangehrm\src\main\resources\suitefile\sample.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Falcon-Sample-WIN_7_chrome_53&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;parameter name=&quot;os&quot; value=&quot;WIN&quot;/&gt;
+  &lt;parameter name=&quot;osVersion&quot; value=&quot;7&quot;/&gt;
+  &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
+  &lt;parameter name=&quot;browserVersion&quot; value=&quot;53&quot;/&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;SampleTest&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;org.atmecs.ui_automation_orangehrm.testscript.OrangeHRMTestScript&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- SampleTest --&gt;
+&lt;/suite&gt; &lt;!-- Falcon-Sample-WIN_7_chrome_53 --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Falcon-Sample-WIN_7_chrome_53" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Falcon-Sample-WIN_7_chrome_53</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">SampleTest (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Falcon-Sample-WIN_7_chrome_53" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Falcon-Sample-WIN_7_chrome_53</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Falcon-Sample-WIN_7_chrome_53" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Falcon-Sample-WIN_7_chrome_53</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Falcon-Sample-WIN_7_chrome_53');
+function tableData_Falcon-Sample-WIN_7_chrome_53() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(7);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'adminPageActions')
+data.setCell(0, 2, 'org.atmecs.ui_automation_orangehrm.testscript.OrangeHRMTestScript')
+data.setCell(0, 3, 49648);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'pimTabActions')
+data.setCell(1, 2, 'org.atmecs.ui_automation_orangehrm.testscript.OrangeHRMTestScript')
+data.setCell(1, 3, 37215);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'structurePageActions')
+data.setCell(2, 2, 'org.atmecs.ui_automation_orangehrm.testscript.OrangeHRMTestScript')
+data.setCell(2, 3, 16329);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'launchApp')
+data.setCell(3, 2, 'org.atmecs.ui_automation_orangehrm.testscript.OrangeHRMTestScript')
+data.setCell(3, 3, 14999);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'loginPageActions')
+data.setCell(4, 2, 'org.atmecs.ui_automation_orangehrm.testscript.OrangeHRMTestScript')
+data.setCell(4, 3, 3336);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'loginPageActions')
+data.setCell(5, 2, 'org.atmecs.ui_automation_orangehrm.testscript.OrangeHRMTestScript')
+data.setCell(5, 3, 3321);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'loginPageActions')
+data.setCell(6, 2, 'org.atmecs.ui_automation_orangehrm.testscript.OrangeHRMTestScript')
+data.setCell(6, 3, 3284);
+window.suiteTableData['Falcon-Sample-WIN_7_chrome_53']= { tableData: data, tableDiv: 'times-div-Falcon-Sample-WIN_7_chrome_53'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 2 minutes</span>
+              <div id="times-div-Falcon-Sample-WIN_7_chrome_53">
+              </div> <!-- times-div-Falcon-Sample-WIN_7_chrome_53 -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Falcon-Sample-WIN_7_chrome_53" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Falcon-Sample-WIN_7_chrome_53</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">loginPageActions(Admin, admin@123)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Entering the Invalid Credentials</span>
+                <span class="reporter-method-output">PASS : Error Message:  : ACTUAL : Invalid credentials 	EXPECTED :Invalid credentials</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">loginPageActions(Admins, admin123)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Entering the Invalid Credentials</span>
+                <span class="reporter-method-output">PASS : Error Message:  : ACTUAL : Invalid credentials 	EXPECTED :Invalid credentials</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">pimTabActions(Admin, admin123, Testing Report, Education, Current Employees Only, Contact Details, Mobile, Home Te...)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Entering valid credentials</span>
+                <span class="reporter-method-output">Clicking on PIM Tab</span>
+                <span class="reporter-method-output">Clicking on Reports</span>
+                <span class="reporter-method-output">Clicking on Add</span>
+                <span class="reporter-method-output">Entering Report Name</span>
+                <span class="reporter-method-output">Selecting Selection Criteria</span>
+                <span class="reporter-method-output">Selecting Include</span>
+                <span class="reporter-method-output">Selecting select display field group</span>
+                <span class="reporter-method-output">Selecting display field</span>
+                <span class="reporter-method-output">Selecting the category under Selection Criteria </span>
+                <span class="reporter-method-output">Clicking on Save</span>
+                <span class="reporter-method-output">Clicking on Reports</span>
+                <span class="reporter-method-output">Clicking on Report Name Text Field</span>
+                <span class="reporter-method-output">Clicking on Search</span>
+                <span class="reporter-method-output">Verify the Text Records</span>
+                <span class="reporter-method-output">PASS : Found Message:  : ACTUAL : (1) Record Found 	EXPECTED :(1) Record Found</span>
+                <span class="reporter-method-output">Clicking on Edit</span>
+                <span class="reporter-method-output">Selecting display field group in Edit Page</span>
+                <span class="reporter-method-output">Selecting the category under display field in Edit Page</span>
+                <span class="reporter-method-output">Clicking on Save</span>
+                <span class="reporter-method-output">Clicking on Reports</span>
+                <span class="reporter-method-output">Clicking on Report Name Text Field</span>
+                <span class="reporter-method-output">Clicking on Search</span>
+                <span class="reporter-method-output">Verify the Text Records</span>
+                <span class="reporter-method-output">PASS : Found Message:  : ACTUAL : (1) Record Found 	EXPECTED :(1) Record Found</span>
+                <span class="reporter-method-output">Clicking on Delete</span>
+                <span class="reporter-method-output">Clicking on Delete Alert</span>
+                <span class="reporter-method-output">Verify the Text Delete Records</span>
+                <span class="reporter-method-output">PASS : Found Message:  : ACTUAL : No Records Found 	EXPECTED :No Records Found</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">adminPageActions</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Clicking on Admin Tab</span>
+                <span class="reporter-method-output">Clicking on Job</span>
+                <span class="reporter-method-output">Clicking on Job Title</span>
+                <span class="reporter-method-output">Clicking on Add</span>
+                <span class="reporter-method-output">Entering Job Title</span>
+                <span class="reporter-method-output">Clicking on Save</span>
+                <span class="reporter-method-output">Clicking on Edit</span>
+                <span class="reporter-method-output">Entering Job Title</span>
+                <span class="reporter-method-output">Clicking on Save</span>
+                <span class="reporter-method-output">Clicking on Delete</span>
+                <span class="reporter-method-output">Clicking on Delete Alert</span>
+                <span class="reporter-method-output">Clicking on Job</span>
+                <span class="reporter-method-output">Clicking on Job Categories</span>
+                <span class="reporter-method-output">Clicking on Add</span>
+                <span class="reporter-method-output">Entering Job Title</span>
+                <span class="reporter-method-output">Clicking on Save</span>
+                <span class="reporter-method-output">Clicking on Edit</span>
+                <span class="reporter-method-output">Entering Job Title</span>
+                <span class="reporter-method-output">Clicking on Save</span>
+                <span class="reporter-method-output">Clicking on Delete</span>
+                <span class="reporter-method-output">Clicking on Delete Alert</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">structurePageActions</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Clicking on Admin Tab</span>
+                <span class="reporter-method-output">Clicking on Organization</span>
+                <span class="reporter-method-output">Clicking on Structure</span>
+                <span class="reporter-method-output">Clicking on Engineering DropDown</span>
+                <span class="reporter-method-output">Clicking on Edit Button</span>
+                <span class="reporter-method-output">Clicking on QA Edit Button</span>
+                <span class="reporter-method-output">Enter Text on the QA</span>
+                <span class="reporter-method-output">Clicking on Save</span>
+                <span class="reporter-method-output">Clicking again on Engineering DropDown</span>
+                <span class="reporter-method-output">Clicking on DropDown under QA</span>
+                <span class="reporter-method-output">PASS : Added Record:  : ACTUAL : Testing 	EXPECTED :Testing</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">launchApp(WIN, 7, chrome, 53)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Opening browser: chrome</span>
+                <span class="reporter-method-output">url opened</span>
+                <span class="reporter-method-output">Maximizing browser window</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">loginPageActions(Admins, admin@123)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Entering the Invalid Credentials</span>
+                <span class="reporter-method-output">PASS : Error Message:  : ACTUAL : Invalid credentials 	EXPECTED :Invalid credentials</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Falcon-Sample-WIN_7_chrome_53" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Falcon-Sample-WIN_7_chrome_53" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">org.atmecs.ui_automation_orangehrm.testscript.OrangeHRMTestScript</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">preSetup</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="test-method">
+                <span class="method-name">launchApp(WIN, 7, chrome, 53)</span>
+                <span class="method-start">39 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">loginPageActions(Admins, admin@123)</span>
+                <span class="method-start">16004 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">loginPageActions(Admins, admin123)</span>
+                <span class="method-start">19325 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">loginPageActions(Admin, admin@123)</span>
+                <span class="method-start">22609 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">pimTabActions(Admin, admin123, Testing Report, Education, Current Employees Only, Contact Details, Mobile, Home Te...)</span>
+                <span class="method-start">26039 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">adminPageActions</span>
+                <span class="method-start">63255 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">structurePageActions</span>
+                <span class="method-start">112904 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-suite after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">129258 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>
